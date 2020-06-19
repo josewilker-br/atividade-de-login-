@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #024059;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 500px;
+    padding: 40px;
+    background: #F28D35;
+    text-align: center;
+}
+
+.box h1 {
+    color: white;
+}
+
+.box input[type="email"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: #F2EFC4;
+    border-radius: 25px;
+    transition: 1.0s;
+    
+}
+
+.box input[type="email"] :focus,
+.box input[type="password"] :focus {
+    width: 300px;
+    border-color: #F28D35;
+}
+
+.box button {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid green;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.30s;
+}
+
+.box button:hover {
+    background: green;
+}
+
+.box a {
+    color: rgb(255, 255, 255);
+    margin-right: 50px;
+}
+ 
+.box ::placeholder {
+    color: white;
+}
+
+.forgot {
+    margin-left: 50px;
+}
+
+.box input:focus{
+    width: 300px;
+    border-color: #F2EFC4;
+}
